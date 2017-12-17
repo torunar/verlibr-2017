@@ -40,6 +40,13 @@
     \end{figure}
 }
 
+% image with space before
+\newcommand{\imgv}[3][\textwidth]{
+    \newpage
+    \hbox{\vspace{#3}}
+    \img[#1]{#2}
+}
+
 % roman
 \newcommand*{\rom}[1]{
     \MakeUppercase{\romannumeral #1}

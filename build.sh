@@ -9,6 +9,9 @@ do
 		--output-directory ../bin \
 		--halt-on-error           \
 		main.latex
+    if [ $? -ne 0 ]; then
+        exit
+    fi
 done
 
 # unite pdf files
