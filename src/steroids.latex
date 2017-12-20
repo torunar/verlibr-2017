@@ -35,8 +35,8 @@
 % image
 \newcommand{\img}[2][\textwidth]{
     \begin{figure}[H]
-      \centering
-      \includegraphics[width=#1]{./img/#2}
+        \centering
+        \includegraphics[width=#1]{./img/#2}
     \end{figure}
 }
 
